@@ -26,6 +26,7 @@ class PongBall(Widget):
         self.pos = Vector(*self.velocity) + self.pos
 
 
+
 class PongGame(Widget):
     ball = ObjectProperty(None)
     player1 = ObjectProperty(None)
